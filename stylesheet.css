@@ -1,0 +1,91 @@
+
+
+html{
+   
+    color:black;
+    align-self: center;
+
+}
+
+.total{
+    margin: auto;
+    width: 60%;
+    border: 5px solid black;
+    padding: 10px;
+    align-items: center;
+   
+    background-color:#cbf2ef;
+    
+}
+
+
+h2{
+    font-size: 1.75rem;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    letter-spacing: 2px;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+h4{
+    font-size: 0.5 rem;
+    /*text-transform: uppercase;*/
+    color:#161717;
+}
+
+p{
+    line-height: 1.5;
+}
+
+section + section{
+    margin-top:2rem;
+
+}
+
+li+li{
+    margin-top:1rem;
+}
+
+.profile{
+    text-align: center;
+    font-size: 25px;
+}
+.profile h2{
+    width: 100%;
+    
+    
+}
+.profile img{
+    border-radius: 50%;
+    width: 15rem;
+    height:18rem;
+    padding: 1rem;
+}
+ 
+.profile p{
+    margin-bottom: 1rem;
+    color:black;
+}
+
+.contact ul{
+    margin-top:-2rem;
+}
+.contact li{
+    text-align: left;
+    padding-block-start: 1rem;
+    color:black;
+    
+    
+}
+.skills > ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
